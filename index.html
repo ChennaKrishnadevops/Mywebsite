@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class="sticky top-0 z-50 bg-white shadow-sm">
-<div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center gap-2">
 <div class="flex items-center gap-3 min-w-0">
   <div class="relative w-14 h-14 sm:w-16 sm:h-16 shrink-0 overflow-hidden rounded-xl"><img src="assets/ckr-logo.jpeg" alt="CKR PowerEdge Solutions logo" class="absolute left-1/2 top-[-12%] w-[150%] max-w-none" style="transform:translateX(-50%) scaleY(1.47);transform-origin:center top"></div>
   <div class="mont leading-none text-[#0a2540]">
@@ -19,13 +19,14 @@
   </div>
 </div>
 <nav class="hidden lg:flex gap-5 text-sm"><a href="index.html" class="text-green-600 font-bold">Home</a><a href="solutions.html">Solutions</a><a href="green-open-access.html">Green Open Access</a><a href="projects.html">C&I Projects</a><a href="why-us.html">Why Us</a><a href="insights.html">Insights</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
-<a href="contact.html" class="bg-[#0a4a8a] text-white px-4 py-2 rounded-lg text-xs font-bold whitespace-nowrap">Get Free Power Audit →</a>
+<div class="flex items-center gap-2 shrink-0"><a href="contact.html" class="hidden sm:inline-flex bg-[#0a4a8a] text-white px-4 py-2 rounded-lg text-xs font-bold whitespace-nowrap">Get Free Power Audit →</a><button type="button" aria-label="Toggle navigation menu" aria-controls="mnav" aria-expanded="false" onclick="const menu=document.getElementById('mnav');const expanded=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',String(!expanded));menu.classList.toggle('hidden',expanded);" class="lg:hidden p-2 border border-gray-300 rounded-lg text-[#0a2540]"><span aria-hidden="true">☰</span></button></div>
 </div>
+<div id="mnav" class="hidden lg:hidden border-t bg-white px-4 py-4"><nav aria-label="Mobile navigation" class="grid grid-cols-2 gap-x-4 gap-y-3 text-sm"><a href="index.html" class="text-green-600 font-bold">Home</a><a href="solutions.html">Solutions</a><a href="green-open-access.html">Green Open Access</a><a href="projects.html">C&amp;I Projects</a><a href="why-us.html">Why Us</a><a href="insights.html">Insights</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav><a href="contact.html" class="mt-4 block rounded-lg bg-[#0a4a8a] px-4 py-3 text-center text-sm font-bold text-white">Get Free Power Audit →</a></div>
 </header>
 
 <section class="bg-[#051a35] text-white py-20 px-6" style="background:linear-gradient(90deg,rgba(5,26,53,0.95) 40%,rgba(5,26,53,0.3)),url('https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2000&q=80');background-size:cover">
 <div class="max-w-7xl mx-auto">
-<h1 class="mont text-5xl font-bold leading-[1.1] max-w-2xl">Make Your C&amp;I Power Strategy <span class="text-[#7CFF9B]">Work Smarter</span> with Renewables</h1>
+<h1 class="mont text-3xl sm:text-5xl font-bold leading-[1.1] max-w-2xl">Make Your C&amp;I Power Strategy <span class="text-[#7CFF9B]">Work Smarter</span> with Renewables</h1>
 <p class="text-[#a3d9ff] mt-4 max-w-xl">Independent, technical-led renewable power guidance for commercial and industrial consumers across India.</p>
 <p class="text-gray-200 mt-4 text-sm max-w-xl">We assess your load, compare procurement routes and explain the costs, approvals and trade-offs before you decide. Every recommendation is checked against the rules and charges in your state.</p>
 <div class="flex gap-4 mt-8"><a href="contact.html" class="bg-[#1bbf8a] text-white px-6 py-3 rounded-lg font-bold text-sm">Get Free Power Audit →</a><a href="solutions.html" class="border border-white text-white px-6 py-3 rounded-lg text-sm">Explore C&I Solutions</a></div>
